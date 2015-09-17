@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iom.solve.History"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+    <ListView
+        android:id="@+id/listView_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:divider="#000000"
+        android:layout_alignParentTop="true"
+        android:dividerHeight="1dp"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_marginBottom="10dp">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="10">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_weight="5"
+            android:text="Clear History"
+            android:textColor="#000000"
+            android:background="@drawable/button_effect"
+            android:layout_marginRight="6dp"
+            android:onClick="onClickClear"/>
+
+        <Button
+
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="41dp"
+            android:layout_weight="5"
+            android:onClick="onClickBack"
+            android:background="@drawable/button_effect"
+            android:textColor="#000000"
+            android:layout_marginLeft="6dp"
+            android:text="Back" />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

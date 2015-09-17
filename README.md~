@@ -3,7 +3,7 @@ This is an android project that simplify all form of Boolean expression.
 
 This project use all the algebraic boolean expression in simplification of the expression
 
-```
+
 ** The 12 Rules of Boolean Algebra **
 * A + 0 = A
 * A + 1 = 1

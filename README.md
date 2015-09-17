@@ -3,8 +3,7 @@ This is an android project that simplify all form of Boolean expression.
 
 This project use all the algebraic boolean expression in simplification of the expression
 
-
-** The 12 Rules of Boolean Algebra **
+The 12 Rules of Boolean Algebra 
 * A + 0 = A
 * A + 1 = 1
 * A · 0 = 0
@@ -17,6 +16,7 @@ This project use all the algebraic boolean expression in simplification of the e
 * A + AB = A
 * A + AB = A + B
 * (A + B)(A + C) = A + BC
+
 Also, Demorgan's Theorems was used;
 
 * (XY)' = X' + Y'
